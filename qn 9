@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int num, count;
+
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    count = (int)log10(num) + 1;
+
+    printf("Number of digits: %d\n", count);
+
+    return 0;
+}
